@@ -3,7 +3,6 @@ package com.example.kramviapp.login
 import android.annotation.SuppressLint
 import android.app.Activity
 import android.content.Intent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -27,7 +26,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.kramviapp.LoginActivity
 import com.example.kramviapp.MainActivity
 import com.example.kramviapp.models.NavigateTo
 import com.example.kramviapp.navigation.NavigationViewModel

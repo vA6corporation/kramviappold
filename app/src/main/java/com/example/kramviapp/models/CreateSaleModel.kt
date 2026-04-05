@@ -8,7 +8,7 @@ data class CreateSaleModel(
     val paymentMethodId: String,
     val discount: Double,
     val cash: Double,
-    val igvPercent: Int,
+    val igvPercent: Double,
     val currencyCode: CurrencyCodeType,
     val observations: String,
     val workerId: String?,

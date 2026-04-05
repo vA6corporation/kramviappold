@@ -5,7 +5,7 @@ import com.example.kramviapp.enums.InvoiceType
 
 data class CreateProformaModel(
     val discount: Double,
-    val igvPercent: Int,
+    val igvPercent: Double,
     val currencyCode: CurrencyCodeType,
     val observations: String,
     val customerId: String?,

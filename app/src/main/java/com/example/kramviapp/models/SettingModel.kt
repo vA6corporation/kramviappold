@@ -34,5 +34,5 @@ data class SettingModel(
     val isOfficeTurn: Boolean = false,
     val isBlockChangeStock: Boolean = false,
 
-    val defaultIgvPercent: Int = 18,
+    val defaultIgvPercent: Double = 18.0,
 )

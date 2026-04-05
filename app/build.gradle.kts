@@ -13,7 +13,7 @@ android {
         applicationId = "com.va6corporation.kramviapp"
         minSdk = 24
         targetSdk = 35
-        versionCode = 39
+        versionCode = 40
         versionName = "4.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -21,7 +21,7 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField(type = "String", name = "BASE_URL", value = "\"http://192.168.18.101:3000/api/v2/\"")
+            buildConfigField(type = "String", name = "BASE_URL", value = "\"http://192.168.18.102:3000/api/v1/\"")
             buildConfigField(type = "String", name = "BASE_FRONT_URL", value = "\"http://192.168.1.100:4200/\"")
         }
         release {
@@ -30,8 +30,8 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            buildConfigField(type = "String", name = "BASE_URL", value = "\"https://app.kramvi.com/api/v2/\"")
-            buildConfigField(type = "String", name = "BASE_FRONT_URL", value = "\"https://app.kramvi.com/\"")
+            buildConfigField(type = "String", name = "BASE_URL", value = "\"https://pe.kramvi.com/api/v1/\"")
+            buildConfigField(type = "String", name = "BASE_FRONT_URL", value = "\"https://pe.kramvi.com/\"")
         }
 
     }
